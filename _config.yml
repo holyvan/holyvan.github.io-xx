@@ -4,19 +4,21 @@ name: van
 description: Welcome to van！
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://github.com/zxixia/jekyll-xixia
+url: https://github.com/holyvan/holyvan.github.io
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: '/'
+baseurl: ''
+
 ## default date_format
 date_format: 
-  title: "%B-%-d-%Y"
-  archive: "%b"
-  categories: "%b-%Y"
-  tag: "%b-%Y"
+  title: "%Y年-%m月-%d日"
+  archive: "%m月"
+  categories: "%y年-%m月"
+  tag: "%y年-%m月"
+
 # Language
 lan: "cn" 
 
