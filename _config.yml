@@ -4,7 +4,7 @@ name: van
 description: Welcome to van！
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://github.com/holyvan/holyvan.github.io
+url: https://holyvan.github.io
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
@@ -30,4 +30,5 @@ gems: ['jekyll-paginate']
 
 exclude: ['README.md', 'LICENSE', "*.bak"]
 
+github_username: holyvan
 theme: jekyll-theme-minimal
