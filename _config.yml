@@ -31,4 +31,4 @@ gems: ['jekyll-paginate']
 exclude: ['README.md', 'LICENSE', "*.bak"]
 
 github_username: holyvan
-theme: jekyll-theme-minimal
+theme: jekyll-theme-leap-day
