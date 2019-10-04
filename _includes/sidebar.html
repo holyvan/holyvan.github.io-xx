@@ -41,7 +41,7 @@
 
 <div class="sidebar well">
     <h2>{{ trans.tags }}</h2>
-	{% for tag in site.tags}
+	{% for tag in site.tags %}
 	  <a href="{{ site.baseurl}}{{ tag.url }}">{{ tag.title }}</a>
 	{% endfor %}
 </div>
