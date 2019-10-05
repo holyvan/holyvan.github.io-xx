@@ -1,5 +1,7 @@
 # Jekyll configuration
 
+title: joshua
+
 name: van
 description: Welcome to van！
 
@@ -31,4 +33,8 @@ gems: ['jekyll-paginate']
 exclude: ['README.md', 'LICENSE', "*.bak"]
 
 github_username: holyvan
-theme: jekyll-theme-leap-day
+# theme: jekyll-theme-leap-day
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
