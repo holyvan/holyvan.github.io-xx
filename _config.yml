@@ -19,7 +19,7 @@ date_format:
   title: "%Y年-%m月-%d日"
   archive: "%m月"
   categories: "%y年-%m月"
-  tag: "%y年-%m月"
+  tag: "%y年-%m月-%d日"
 
 # Language
 lan: "cn" 
