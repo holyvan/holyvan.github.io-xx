@@ -17,7 +17,7 @@
 
 {% if site.data.tops.size > 0 %}
 <div class="sidebar well">
-    <h2>{{ trans.top_posts }}</h2>
+    <h3>{{ trans.top_posts }}</h3>
     <ul>
         {% for top in site.data.tops %}
             {% for post in site.posts %}
@@ -31,7 +31,7 @@
 {% endif %}
 
 <div class="sidebar well">
-    <h2>{{ trans.recent_posts }}</h2>
+    <h3>{{ trans.recent_posts }}</h3>
     <ul>
         {% for post in site.posts limit:5 %}
           <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
